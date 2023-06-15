@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+}
+
+.navBar {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.938rem;
+  margin: 0 0 2.375rem;
+  padding: 2.438rem 6.188rem 0.688rem;
+  color: #0290ff;
+}
+
+.appDiv {
+  background-color: #f5f6fa;
+  padding: 1.25rem 0;
+}
+
+.navBar > h1 {
+  width: 15rem;
+  height: 2.313rem;
+  margin: 0 2.938rem 0.125rem 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navUl {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.naveLi > a {
+  text-decoration: none;
+}
+
+.booksContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75rem;
+  margin: 2.313rem 6.25rem 0;
+  padding: 1rem 1.188rem 0.625rem 1.688rem;
+  border-radius: 4px;
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+}
+
+.bookInformation {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookType {
+  opacity: 0.5;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #121212;
+}
+
+.bookTtl {
+  width: 30.313rem;
+  height: 1.813rem;
+  margin-top: 0.288rem;
+  font-family: "Roboto Slab", serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.author {
+  height: 1.188rem;
+  margin: -0.25rem 0 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.comntRmvEdt {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  height: 1.188rem;
+  margin: 1.188rem 0.938rem 0.125rem 0;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  color: #4386bf;
+}
+
+.comntRmvEdtLi {
+  border-right: 1px solid #e8e8e8;
+  padding-right: 5px;
+}
+
+.bookComPercent {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.percentage {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circular-progress-container {
+  width: 5.625rem;
+  height: 5.625rem;
+  padding: 0.63rem 0.625rem 0.75rem 0.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circular-progress {
+  border-radius: 50%;
+  width: 4.25rem;
+  height: 4.25rem;
+  border: 5px solid #307bbe;
+  border-left-color: #e8e8e8;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.progressInfo {
+  padding-top: 15px;
+  border-right: 1px solid #e8e8e8;
+}
+
+.completed {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.currentChapDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.currentChap {
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  color: #121212;
+}
+
+.currentLess {
+  height: 1.313rem;
+  margin: 0.063rem 2.625rem 0 3.688rem;
+  font-family: "RobotoSlab", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #121212;
+}
+
+.currentChapUpPro {
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  color: #fff;
+}
+
+.bookFormDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 75rem;
+  margin: 2.313rem 6.25rem 0;
+  padding: 2rem 0 1.625rem 0;
+  border-radius: 4px;
+  border-top: 1px solid #e8e8e8;
+  background-color: transparent;
+}
+
+.bookTtlInp {
+  width: 40.5rem;
+  height: 2.813rem;
+  margin: 1.188rem 2.125rem 0 0;
+  padding: 0.813rem 0.688rem 0.813rem 1.063rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.bookCateg {
+  width: 17.813rem;
+  height: 2.813rem;
+  margin: 1.188rem 2.125rem 0;
+  padding: 0.375rem 0.938rem 0.563rem 1rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: row;
+}
+
+.formBtn {
+  width: 15.5rem;
+  height: 2.813rem;
+  margin: 1.188rem 0 0 1.125rem;
+  padding: 0.801rem 1.188rem 0.886rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  font-size: 0.813rem;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
