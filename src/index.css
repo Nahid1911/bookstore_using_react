@@ -20,6 +20,7 @@
 .appDiv {
   background-color: #f5f6fa;
   padding: 1.25rem 0;
+  width: 100%;
 }
 
 .navBar > h1 {
@@ -54,7 +55,7 @@
   justify-content: space-between;
   width: 75rem;
   margin: 2.313rem 6.25rem 0;
-  padding: 1rem 1.188rem 0.625rem 1.688rem;
+  padding: 1rem 1.188rem 2.625rem 1.688rem;
   border-radius: 4px;
   border: 1px solid #e8e8e8;
   background-color: #fff;
