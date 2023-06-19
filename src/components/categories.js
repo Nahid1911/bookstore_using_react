@@ -1,6 +1,6 @@
 const Categories = () => (
   <div>
-    <h1>I am categories page</h1>
+    <h3>I am category slice</h3>
   </div>
 );
 
