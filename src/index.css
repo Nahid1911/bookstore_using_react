@@ -49,6 +49,12 @@
   text-decoration: none;
 }
 
+.rmvBtn {
+  border: none;
+  background-color: #fff;
+  color: #4386bf;
+}
+
 .booksContainer {
   display: flex;
   flex-direction: row;
