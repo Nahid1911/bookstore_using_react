@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { addBook } from '../redux/books/booksSlice';
+import { v4 as uuid4 } from 'uuid';
+import { useDispatch } from 'react-redux';
+import { addBook, addBookToApi } from '../redux/books/booksSlice';
 
 const BookAddForm = () => {
-  const books = useSelector((store) => store.books);
-  const totalBooks = books.length;
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
   const dispatch = useDispatch();
@@ -13,12 +12,13 @@ const BookAddForm = () => {
     e.preventDefault();
 
     const newBook = {
-      item_id: `item${totalBooks + 1}`,
+      item_id: uuid4,
       title,
       author,
       category: 'Fantacy',
     };
     dispatch(addBook(newBook));
+    addBookToApi(newBook);
 
     setTitle('');
     setAuthor('');
