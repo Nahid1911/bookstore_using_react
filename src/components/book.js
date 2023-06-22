@@ -11,7 +11,7 @@ const Book = () => {
 
   useEffect(() => {
     dispatch(fetchData());
-  }, []);
+  }, [dispatch]);
 
   return (
     books.map((book) => (

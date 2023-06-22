@@ -1,20 +1,31 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <h3><b>BookStore list</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -23,17 +34,41 @@
 
 - In this app you can Display a list of books, Add a book, Remove a selected book, see progress of reading, this app is built with REACT and wireframe from Zeplin.
 
-## 🛠 Built With <a name="built-with"></a>
+### 🛠 Built With <a name="built-with"></a>
 
-- Zeplin design
-- React
+- React-Redux
+- Zeplin
+- API Call
+- Node.js
+
+### Tech Stack <a name="tech-stack"></a>
+
+  <summary>Software</summary>
+  <ul>
+    <li><a href=" ">React</a></li>
+    <li><a href=" ">Redux</a></li>
+    <li><a href=" ">API call</a></li>
+    <li><a href=" ">Node.js</a></li>
+    <li><a href=" ">GitFlow</a></li>
+    <li><a href=" ">GitHub</a></li>
+  </ul>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- Book Store
+- Categories
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Key Features
+<!-- LIVE DEMO -->
 
-- Books.
-- Categories.
+## 🚀 Live Demo <a name="live-demo"></a>
+
+To see the live demo of the page please click <a href="https://nrsbookstore.onrender.com">here</a>:
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -43,73 +78,44 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need the following in your local machine
 
-Example command:
+```
+- Code Editor
+- Git
+- Node.js
+- React-Redux
 
-```sh
-1.use a browser
-2.use cable internet
-3. VS Code.
-4. React app.
-5. node.js
 ```
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-Example commands:
+Clone this repository to your desired folder using the command:
 
 ```sh
-
-  git gh repo clone Nahid1911/bookstore_using_react
-
-
-
-```
-
-### Install
-
-Install this project with:
-
-Example command:
-
-```sh
-  npm install
-  npx create-react-app .
+  gh repo clone Nahid1911/bookstore_using_react
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+After cloning the project you can customize it replacing the personal information with required information:
 
-Example command:
-
-```sh
-- Write ``npm start`` in the terminal and click on enter after that you can see the app in the browser.
+```
+run 'npm install'
 ```
 
 ### Run tests
 
-To run tests for the linter, run the following command:
-
-Example command:
+To run tests, run the following command to find linters error:
 
 ```sh
-npx stylelint "**/*.{css,scss}"
-npx eslint "**/*.{js,jsx}"
+  npx stylelint "**/*.{css,scss}"
+  npx eslint "**/*.{js,jsx}"
 ```
 
-### Deployment
-
-You can deploy this project using:
-
-- Github Pages
-- Render.com
-- Netlify.com
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -120,15 +126,14 @@ Collaborators of this project is:
 - GitHub: [@githubhandle](https://github.com/Nahid1911)
 - Twitter: [@twitterhandle](https://twitter.com/Nahid1911)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nahidraihan/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] Add test using react testing library Jest.
-- [ ] Add more styling💯.
-- [ ] Add contact page.
+- [ ] Categories Page
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -138,15 +143,13 @@ Collaborators of this project is:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [Isuues Pages](https://github.com/Nahid1911/bookstore_using_react.git)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project kindly give it a star⭐️.
+If you like this project please show your support by giving stars.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +157,7 @@ If you like this project kindly give it a star⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for including this project in theire curriculumn.
+I would like to thank Microverse for the inspiration to create this portfolio as a part of my learning journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
