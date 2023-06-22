@@ -1,10 +1,17 @@
-import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchData } from '../redux/books/booksSlice';
 import BookInformation from './bookInformation';
 import BookCompletionPercentage from './bookCompletionPercent';
 import BookChapterInfo from './bookChapterInfo';
 
 const Book = () => {
+  const dispatch = useDispatch();
   const books = useSelector((store) => store.books.bookList);
+
+  useEffect(() => {
+    dispatch(fetchData());
+  }, []);
 
   return (
     books.map((book) => (
@@ -21,5 +28,4 @@ const Book = () => {
     ))
   );
 };
-
 export default Book;
