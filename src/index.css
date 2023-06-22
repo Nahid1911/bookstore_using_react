@@ -29,15 +29,14 @@
 }
 
 .navBar > h1 {
-  width: 15rem;
+  width: 50%;
   height: 2.313rem;
-  margin: 0 2.938rem 0.125rem 0;
   font-family: Montserrat, sans-serif;
   font-size: 1.875rem;
   font-weight: bold;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .navUl {
@@ -204,7 +203,7 @@
 .currentChapDiv {
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
   width: 30%;
   gap: 12px;
 }
