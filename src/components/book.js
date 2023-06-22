@@ -4,7 +4,7 @@ import BookCompletionPercentage from './bookCompletionPercent';
 import BookChapterInfo from './bookChapterInfo';
 
 const Book = () => {
-  const books = useSelector((store) => store.books);
+  const books = useSelector((store) => store.books.bookList);
 
   return (
     books.map((book) => (
